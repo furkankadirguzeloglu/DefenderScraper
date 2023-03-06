@@ -11,6 +11,8 @@ An open source permanent Windows Defender uninstaller.
 > Windows 11 22H2 (22621.1344) | 06.03.2023
 
 ## Tutorial
+[![Watch the video](https://i3.ytimg.com/vi/ohRGelG6fOQ/maxresdefault.jpg)](https://www.youtube.com/watch?v=ohRGelG6fOQ)
+https://www.youtube.com/watch?v=ohRGelG6fOQ
 
 ## Built With
 * [Defender Control](https://github.com/qtkite/defender-control)
