@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Libraries">
+      <UniqueIdentifier>{8ffff280-ada5-4476-b688-e1d99c74498c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\Regedit">
+      <UniqueIdentifier>{81f1be80-ab46-4cc0-8e7d-c997738cd326}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\DefenderControl">
+      <UniqueIdentifier>{38d26792-5ad2-4610-8a1d-fb955426be8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\WMIC">
+      <UniqueIdentifier>{de33d196-892a-4731-b8e0-b5e4523d09b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\Trusted">
+      <UniqueIdentifier>{6a08d8bb-e7cf-4807-8c0c-043a0a8acd6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\Util">
+      <UniqueIdentifier>{ef74451f-c5d4-49da-b179-97ca26b51bc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\Unlocker">
+      <UniqueIdentifier>{be2f7bc2-0867-47d4-8268-63305077ec90}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DefenderControl.cpp">
+      <Filter>Libraries\DefenderControl</Filter>
+    </ClCompile>
+    <ClCompile Include="wmic.cpp">
+      <Filter>Libraries\WMIC</Filter>
+    </ClCompile>
+    <ClCompile Include="Regedit.cpp">
+      <Filter>Libraries\Regedit</Filter>
+    </ClCompile>
+    <ClCompile Include="Trusted.cpp">
+      <Filter>Libraries\Trusted</Filter>
+    </ClCompile>
+    <ClCompile Include="Util.cpp">
+      <Filter>Libraries\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="Unlocker.cpp">
+      <Filter>Libraries\Unlocker</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DefenderControl.hpp">
+      <Filter>Libraries\DefenderControl</Filter>
+    </ClInclude>
+    <ClInclude Include="wmic.hpp">
+      <Filter>Libraries\WMIC</Filter>
+    </ClInclude>
+    <ClInclude Include="Regedit.hpp">
+      <Filter>Libraries\Regedit</Filter>
+    </ClInclude>
+    <ClInclude Include="Trusted.hpp">
+      <Filter>Libraries\Trusted</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.hpp">
+      <Filter>Libraries\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Unlocker.hpp">
+      <Filter>Libraries\Unlocker</Filter>
+    </ClInclude>
+    <ClInclude Include="IObitUnlockerPortable.h">
+      <Filter>Libraries\Unlocker</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h" />
+  </ItemGroup>
+</Project>
