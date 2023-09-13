@@ -8,11 +8,7 @@ An open source permanent Windows Defender uninstaller.
 > If you have disabled it before and you are experiencing performance problems after the latest updates, first enable it with ["Defender Control"](https://www.sordum.org/9480/defender-control-v2-1/), then restart your system and use the ["DefenderScraper"](https://github.com/furkankadirguzeloglu/DefenderScraper) software. Your problem will be solved.
 
 ## Tested Versions
-> Windows 11 22H2 (22621.1344) | 06.03.2023
-
-## Tutorial
-[![Watch the video](https://i3.ytimg.com/vi/ohRGelG6fOQ/maxresdefault.jpg)](https://www.youtube.com/watch?v=ohRGelG6fOQ)
-https://www.youtube.com/watch?v=ohRGelG6fOQ
+> Windows 11 22H2
 
 ## Built With
 * [Defender Control](https://github.com/qtkite/defender-control)
